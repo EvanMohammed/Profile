@@ -8,7 +8,7 @@ import Home from '../Home/index';
 import About from '../About/index';
 import Projects from '../Projects/index';
 import Contact from '../Contact/index';
-import Resume from '../../assets/resume/Evanresume.pdf'
+import Resume from '../../assets/resume/newResume.pdf'
 import Sidebar from '../SideBar';
 const NavBar = ({ toggle}) => {
     const toggleHome = () => {

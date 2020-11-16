@@ -4,7 +4,7 @@ import { Link as Router } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 import './style.css';
 import { SidebarContainer } from './SidebarElements.js';
-import Resume from '../../assets/resume/Evanresume.pdf'
+import Resume from '../../assets/resume/newResume.pdf'
 
 
 function Sidebar({ isOpen, toggle }) {
