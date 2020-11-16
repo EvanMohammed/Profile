@@ -25,7 +25,7 @@ function Sidebar({ isOpen, toggle }) {
                     <Scroll className="sidebar--link" to="projects" onClick={toggle}>
                         Projects
                     </Scroll>
-                    <Router className="sidebar--link" target="_blank" href='https://evanmohammed.github.io/profile/static/media/newResume.591026e9.pdf' onClick={toggle}>
+                    <Router className="sidebar--link" target="_blank" to='https://evanmohammed.github.io/profile/static/media/newResume.591026e9.pdf' onClick={toggle}>
                         Resume
                     </Router>
                     <Scroll className="sidebar--link" to="contact" onClick={toggle}>
