@@ -25,11 +25,11 @@ function Sidebar({ isOpen, toggle }) {
                     <Scroll className="sidebar--link" to="projects" onClick={toggle}>
                         Projects
                     </Scroll>
-                    <Router className="sidebar--link" target="_blank" to='static/media/newResume.591026e9.pdf' onClick={toggle}>
+                    <a className="sidebar--link" target="_blank" href='profile/static/media/newResume.591026e9.pdf' onClick={toggle}>
                         Resume
-                    </Router>
+                    </a>
                     <Scroll className="sidebar--link" to="contact" onClick={toggle}>
-                        Contacts
+                        Contact Me
                     </Scroll>
                 </div>
             </div>

@@ -21,7 +21,7 @@ const NavBar = ({ toggle}) => {
                 <Router className='navBar--list' to={Home} to='/' onClick={toggleHome}>Home</Router>
                 <Scroll className='navBar--list' to='about' smooth={true} duration={500} spy={true} exact='true'>About</Scroll>
                 <Scroll className='navBar--list' to='projects' smooth={true} duration={500} spy={true} exact='true'>Projects</Scroll>
-                <Router className='navBar--list' target="_blank" to='static/media/newResume.591026e9.pdf'>Resume</Router>
+                <a className='navBar--list' target="_blank" href='/profile/static/media/newResume.591026e9.pdf'>Resume</a>
                 <Scroll className='navBar--list' to='contact' smooth={true} duration={500} spy={true} exact='true'>Contact</Scroll>
                 
             </ul>
