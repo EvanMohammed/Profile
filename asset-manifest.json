@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.4f0a428f.chunk.css",
-    "main.js": "/profile/static/js/main.579e2ca2.chunk.js",
-    "main.js.map": "/profile/static/js/main.579e2ca2.chunk.js.map",
+    "main.js": "/profile/static/js/main.6dd2c70c.chunk.js",
+    "main.js.map": "/profile/static/js/main.6dd2c70c.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.385a1795.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.385a1795.js.map",
     "static/js/2.2bc2ee22.chunk.js": "/profile/static/js/2.2bc2ee22.chunk.js",
@@ -12,10 +12,10 @@
     "index.html": "/profile/index.html",
     "static/css/main.4f0a428f.chunk.css.map": "/profile/static/css/main.4f0a428f.chunk.css.map",
     "static/js/2.2bc2ee22.chunk.js.LICENSE.txt": "/profile/static/js/2.2bc2ee22.chunk.js.LICENSE.txt",
+    "static/media/EvanResume.8e11a8ae.pdf": "/profile/static/media/EvanResume.8e11a8ae.pdf",
     "static/media/evan.9e4bc86f.jpg": "/profile/static/media/evan.9e4bc86f.jpg",
     "static/media/fitness.d51592a7.jpg": "/profile/static/media/fitness.d51592a7.jpg",
     "static/media/moneytrend.f2ac7dbd.gif": "/profile/static/media/moneytrend.f2ac7dbd.gif",
-    "static/media/newResume.591026e9.pdf": "/profile/static/media/newResume.591026e9.pdf",
     "static/media/readme.87bbeffa.gif": "/profile/static/media/readme.87bbeffa.gif",
     "static/media/vibeApp.d17bfa13.gif": "/profile/static/media/vibeApp.d17bfa13.gif"
   },
@@ -23,6 +23,6 @@
     "static/js/runtime-main.385a1795.js",
     "static/js/2.2bc2ee22.chunk.js",
     "static/css/main.4f0a428f.chunk.css",
-    "static/js/main.579e2ca2.chunk.js"
+    "static/js/main.6dd2c70c.chunk.js"
   ]
 }
