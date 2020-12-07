@@ -1,9 +1,8 @@
 import React from "react";
 import {
-  MdEmail,
-  FaTwitter,
   FaGithub,
 } from "react-icons/fa";
+import  {AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
 import './style.css'
 
 import {animateScroll as scroll} from 'react-scroll';
@@ -35,22 +34,15 @@ function Footer() {
               >
               <FaGithub /> 
               </a>
-              <a className='footer--link'
-                href="https://www.instagram.com/evan_mohammed92/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Instgram"
-              >
-                <FaInstagram />
-              </a>
+              
               
               <a className='footer--link'
-                href="https://twitter.com/ivanbakr"
+                href="https://www.linkedin.com/in/evan-mohammed-b50415b7/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Twitter"
               >
-                <FaTwitter />
+                <AiFillLinkedin />
               </a>
               <a className='footer--link'
                 href="mailto:evanmohammedsaleh@gmail.com"
@@ -58,7 +50,7 @@ function Footer() {
                 rel="noreferrer"
                 aria-label="Linkedin"
               >
-                <MdEmail />
+                <AiOutlineMail />
               </a>
             </div>
           
