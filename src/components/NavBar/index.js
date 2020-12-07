@@ -8,8 +8,8 @@ import Home from '../Home/index';
 import About from '../About/index';
 import Projects from '../Projects/index';
 import Contact from '../Contact/index';
-import Resume from '../../assets/resume/newResume.pdf'
 import Sidebar from '../SideBar';
+import PDF from '../../assets/resume/EvanResume.pdf'
 const NavBar = ({ toggle}) => {
     const toggleHome = () => {
         scroll.scrollToTop()
@@ -21,7 +21,7 @@ const NavBar = ({ toggle}) => {
                 <Router className='navBar--list' to={Home} to='/' onClick={toggleHome}>Home</Router>
                 <Scroll className='navBar--list' to='about' smooth={true} duration={500} spy={true} exact='true'>About</Scroll>
                 <Scroll className='navBar--list' to='projects' smooth={true} duration={500} spy={true} exact='true'>Projects</Scroll>
-                <a className='navBar--list' target="_blank" href='/profile/static/media/newResume.591026e9.pdf'>Resume</a>
+                <a className='navBar--list' target="_blank" rel="noreferrer" href={PDF}>Resume</a>
                 <Scroll className='navBar--list' to='contact' smooth={true} duration={500} spy={true} exact='true'>Contact</Scroll>
                 
             </ul>

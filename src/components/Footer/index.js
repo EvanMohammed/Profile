@@ -1,7 +1,6 @@
 import React from "react";
 import {
-  FaInstagram,
-  FaLinkedin,
+  MdEmail,
   FaTwitter,
   FaGithub,
 } from "react-icons/fa";
@@ -54,12 +53,12 @@ function Footer() {
                 <FaTwitter />
               </a>
               <a className='footer--link'
-                href="https://www.linkedin.com/in/evan-mohammed-b50415b7/"
+                href="mailto:evanmohammedsaleh@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Linkedin"
               >
-                <FaLinkedin />
+                <MdEmail />
               </a>
             </div>
           

@@ -4,7 +4,7 @@ import { Link as Router } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 import './style.css';
 import { SidebarContainer } from './SidebarElements.js';
-import Resume from '../../assets/resume/newResume.pdf'
+import PDF from '../../assets/resume/EvanResume.pdf'
 
 
 function Sidebar({ isOpen, toggle }) {
@@ -25,7 +25,7 @@ function Sidebar({ isOpen, toggle }) {
                     <Scroll className="sidebar--link" to="projects" onClick={toggle}>
                         Projects
                     </Scroll>
-                    <a className="sidebar--link" target="_blank" href='profile/static/media/newResume.591026e9.pdf' onClick={toggle}>
+                    <a className="sidebar--link" target="_blank" rel="noreferrer" href={PDF} onClick={toggle}>
                         Resume
                     </a>
                     <Scroll className="sidebar--link" to="contact" onClick={toggle}>

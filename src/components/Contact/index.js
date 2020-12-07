@@ -4,13 +4,14 @@ import './style.css';
 function Contact() {
     function sendEmail(e) {
         e.preventDefault();
-
         emailjs.sendForm('service_evansaleh', 'contact_form', e.target, 'user_AEeJwaOVkQBPapeqII85h')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+        
     }
 
     return (
