@@ -10,6 +10,7 @@ Welcome to My portfolio Website, Please feel free to check it
 
 ## Installation 
 - please click on the link below to visit my website
+- https://evanmohammed.github.io/profile/
 
 
 
