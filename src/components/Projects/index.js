@@ -48,7 +48,7 @@ export default function Projects() {
                                     <img className='projects--image' id='projects--readme' src={ReadMe} alt="ReadMe" ></img>
                                 
                                 <div className="projects--content" >
-                                <span class="highlight">Using NodeJs and Inquirer, I managed to create A simple Node App for future Developers so they can create their .MD files for their future projects in a much easier way than writing it from scratch</span>
+                                <span className="highlight">Using NodeJs and Inquirer, I managed to create A simple Node App for future Developers so they can create their .MD files for their future projects in a much easier way than writing it from scratch</span>
                                 </div>
                                 <a className="projects--btn" href="https://github.com/EvanMohammed/README.md-Generator">
                                     Learn More

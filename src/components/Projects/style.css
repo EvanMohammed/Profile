@@ -13,7 +13,7 @@ body {
         height: 77vh;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .projects {
         height: auto;
     }
@@ -49,7 +49,7 @@ body {
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .projects--group {
         display: flex;
         flex-direction: column;
@@ -68,12 +68,12 @@ body {
         width: 450px;
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .projects--card {
         width: 300px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .projects--card {
         width: 280px;
     }
@@ -82,22 +82,30 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .projects--image {
-    width: 350px;
+    width: 800px;
     height: auto;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1664px) {
+    .projects--image {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1024px) {
     .projects--image {
         width: 280px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .projects--image {
         width: 280px;
     }
 }
 .projects--content {
     color: #ffff;
-    margin: 10px 0;
+    text-align: center;
+    margin: 10px 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 /* #projects--readme {
     height: 210px;
@@ -112,4 +120,23 @@ body {
     align-items: center;
     bottom: 15vh;
     cursor: pointer;
+}
+
+#projects--readme {
+    height: 500px;
+}
+@media screen and (max-width: 1664px) {
+   #projects--readme {
+       height: 250px;;
+    }
+}
+@media screen and (max-width: 1024px) {
+   #projects--readme {
+        height:180px;
+    }
+}
+@media screen and (max-width: 550px) {
+   #projects--readme {
+       height: auto;
+    }
 }
